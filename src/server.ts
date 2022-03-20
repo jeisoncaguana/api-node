@@ -25,7 +25,7 @@ class Server {
     }
     config(){
         // add port 
-        this.app.set('port', environment.PORT )
+        this.app.set('port', process.env.PORT || environment.PORT )
         // add middlewars and config app.
         this.app.use( express.json() )
         this.app.use( express.urlencoded({ extended: false }) )

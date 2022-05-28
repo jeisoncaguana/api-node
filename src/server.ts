@@ -10,6 +10,7 @@ import { options } from './config/swagger'
 import { environment } from './config/environment'
 import router from './routes'
 import { BOOTTelegraf } from './config/telegraf'
+//import { BOOTTelegraf } from './config/telegraf'
    
 
 class Server {
@@ -38,10 +39,10 @@ class Server {
         const docs = swaggeJsDoc( options )
         // init routes
         this.app.use( router )
-        // this.app.use('/docs', swaggerUI.serve , swaggerUI.setup( docs ))
+        this.app.use('/docs', swaggerUI.serve , swaggerUI.setup( docs ))
 
         // init boot  
-        // new BOOTTelegraf()
+        new BOOTTelegraf()
     }       
 
     start(){

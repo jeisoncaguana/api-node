@@ -4,9 +4,9 @@ export const options = {
     definition:{
         openapi:"3.0.0",
         info:{
-            title:"Title",
+            title:"Usuarios Hortifarm",
             version:"1.0.0",
-            decription:"Microservicio App Name"
+            decription:"Microservicio usuarios Hortifarm"
         },
         servers:[
             {
@@ -15,6 +15,11 @@ export const options = {
         ]
     },
     apis:[
-        "./src/*.ts", 
+        "./src/api/auth/*.ts",
+        "./src/api/users/*.ts",
+        "./src/api/profiles/*.ts",
+        "./src/api/moduls/*.ts",
+        "./src/api/objectScreen/*.ts",
+        "./src/api/screen/*.ts",
     ]
 }

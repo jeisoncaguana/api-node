@@ -14,10 +14,19 @@ export const environment = {
  
 
  
-export const db_users_conection = {
-user: '###',
-password: '$#%#$%',
-server: 'name.database.windows.net', 
-database: 'db'  
-}
+  export const db_users_conection = {
+    user: 'adminhortifarm',
+    password: 'H0rtif@rm2220',
+    server: 'db-hortifarm.database.windows.net', 
+    database: 'MSUsuarios'  
+  } 
+ 
+
+// export const db_users_conection = {
+//   user: 'admingoapps',
+//   password: 'chunchi202023',
+//   server: 'goaaps-desarrollo.cezel9wphf84.us-east-1.rds.amazonaws.com', 
+//   port:1433,
+//   database: 'goaaps-desarrollo'  
+// }
  

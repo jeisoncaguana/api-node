@@ -9,16 +9,17 @@ class UsersDB {
     start(){
         return new sql.ConnectionPool({
             ...db_users_conection,
+            
             connectionTimeout:300000,
             requestTimeout: 300000,
-            pool: {
+            pool: { 
                 idleTimeoutMillis: 300000,
                 max: 100
             },
-            options: {
+            options: { 
                 encrypt: true,
-                enableArithAbort: true
-            }
+                enableArithAbort: true,            
+            } 
         })
     }
 

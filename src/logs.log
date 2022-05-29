@@ -103,3 +103,4 @@
 >>>>>>> 1fe881f3b5449277b24e9938b7d18358527acbc3
 2022-05-11 18:04:20 error: Error: auth/controllet.ts/validateToken, TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received an instance of Object 
 2022-05-11 20:24:23 error: screen/controller.ts/create:  RequestError: Error converting data type nvarchar to bigint.  
+2022-05-29 10:18:58 error: Error converting data type nvarchar to bit. 

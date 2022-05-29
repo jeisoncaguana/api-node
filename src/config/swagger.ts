@@ -16,5 +16,7 @@ export const options = {
     },
     apis:[
         "./src/api/users/*.ts",
+        "./src/api/profiles/*.ts",
+        
     ]
 }

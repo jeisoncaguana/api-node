@@ -14,3 +14,7 @@ Compilar e iniciar el proyecto modo desarrollo
 ### `npm start`
 Compilar e iniciar el proyecto para enviar a producción
  
+### Http Methods
+'HEAD' : Pide una Respuesta
+'GET' : Pide la representación de un recurso especifico
+'POST' : Pide un recurso y los somete a que sean procesados para el recurso identificado.
